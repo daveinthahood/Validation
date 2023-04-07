@@ -26,7 +26,7 @@
 
       <div>
         <label for="form-name">Name and surname</label>
-        <input type="text" id="form-name" name="name" pattern="[a-zA-Z]+" required/>
+        <input type="text" id="form-name" name="name" required/>
         <label for="form-dob">Date of birth</label>
         <input type="date" id="form-dob" name="dob" required/>
         <label for="form-tel">Phone number</label>
@@ -35,7 +35,7 @@
 
       <div>
         <label for="form-plan">Plans</label>
-        <select id="form-plan" name="plan" >
+        <select id="form-plan" name="plan" required>
           <option value="0">Free</option>
           <optgroup label="Monthly">
             <option value="199">1.99€/month</option>
@@ -44,7 +44,7 @@
           </optgroup>
         </select>
         <label for="form-pro">PRO plan</label>
-        <input id="form-pro" name="pro" type="checkbox" />
+        <input id="form-pro" name="pro" type="checkbox" required/>
       </div>
 
       <div>
